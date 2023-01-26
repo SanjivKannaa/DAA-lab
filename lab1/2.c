@@ -1,11 +1,13 @@
 // construct a binary tree using given pre and postorder traversals
 
-// The algorithm for this program is as follows:
-//      Create a new node with the data from the first element of the pre-order array
-//      Search the position of this data in the post-order array
-//      Using this position, divide the post-order array into left and right subtrees
-//      Recursively construct the left and right subtrees
-//      Return the root of the constructed tree
+/*
+ALGORITHM
+    1. Create a new node with the data from the first element of the pre-order array
+    2. Search the position of this data in the post-order array
+    3. Using this position, divide the post-order array into left and right subtrees
+    4. Recursively construct the left and right subtrees
+    5. Return the root of the constructed tree
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
